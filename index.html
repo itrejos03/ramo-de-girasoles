@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramo de Girasoles para Sarah</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #ffcc00;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        h2 {
+            font-size: 18px;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .bouquet {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px auto;
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+            margin: 5px 0;
+        }
+        .sunflower {
+            margin: 0 5px;
+            width: 150px;
+            height: 180px;
+            animation: sway 1.5s infinite alternate;
+        }
+        @keyframes sway {
+            0% { transform: rotate(0deg); }
+            25% { transform: rotate(-10deg); }
+            50% { transform: rotate(10deg); }
+            75% { transform: rotate(-10deg); }
+            100% { transform: rotate(0deg); }
+        }
+        .message {
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #ffcc00;
+            padding: 10px;
+            text-align: center;
+        }
+        audio {
+            display: none;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #ffcc00;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #e6b800;
+        }
+    </style>
+</head>
+<body>
+
+<audio id="backgroundMusic" loop autoplay>
+    <source src="./music.mp3" type="audio/mpeg">
+    Tu navegador no soporta el elemento de audio.
+</audio>
+
+<header>
+    <h1>Ramo de Girasoles para Sarah</h1>
+    <h2>Celebrando juntos el 21 de septiembre</h2>
+</header>
+
+<div class="content">
+    <p>Hola, Sarah. ¡El día ha llegado! Estoy tan emocionado de verte y pasar este tiempo juntos. Estos girasoles son un símbolo de la alegría que siento por tenerte aquí.</p>
+
+    <div class="bouquet">
+        <!-- 4 Girasoles -->
+        <div class="row">
+            <div class="sunflower">
+                <svg width="150" height="180" viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="50" y1="50" x2="50" y2="110" stroke="#4CAF50" stroke-width="6" />
+                    <ellipse cx="40" cy="80" rx="8" ry="4" fill="#4CAF50" transform="rotate(-15 40,80)" />
+                    <ellipse cx="60" cy="75" rx="8" ry="4" fill="#4CAF50" transform="rotate(15 60,75)" />
+                    <circle cx="40" cy="45" r="5" fill="#ffcc00" />
+                    <circle cx="60" cy="45" r="5" fill="#ffcc00" />
+                    <circle cx="45" cy="40" r="5" fill="#ffcc00" />
+                    <circle cx="55" cy="40" r="5" fill="#ffcc00" />
+                    <circle cx="45" cy="60" r="5" fill="#ffcc00" />
+                    <circle cx="55" cy="60" r="5" fill="#ffcc00" />
+                    <circle cx="40" cy="55" r="5" fill="#ffcc00" />
+                    <circle cx="60" cy="55" r="5" fill="#ffcc00" />
+                    <circle cx="50" cy="50" r="7" fill="brown" />
+                </svg>
+            </div>
+            <div class="sunflower">
+                <svg width="150" height="180" viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="50" y1="50" x2="50" y2="110" stroke="#4CAF50" stroke-width="6" />
+                    <ellipse cx="40" cy="80" rx="8" ry="4" fill="#4CAF50" transform="rotate(10 40,80)" />
+                    <ellipse cx="60" cy="75" rx="8" ry="4" fill="#4CAF50" transform="rotate(-10 60,75)" />
+                    <circle cx="40" cy="45" r="5" fill="#ffcc00" />
+                    <circle cx="60" cy="45" r="5" fill="#ffcc00" />
+                    <circle cx="45" cy="40" r="5" fill="#ffcc00" />
+                    <circle cx="55" cy="40" r="5" fill="#ffcc00" />
+                    <circle cx="45" cy="60" r="5" fill="#ffcc00" />
+                    <circle cx="55" cy="60" r="5" fill="#ffcc00" />
+                    <circle cx="40" cy="55" r="5" fill="#ffcc00" />
+                    <circle cx="60" cy="55" r="5" fill="#ffcc00" />
+                    <circle cx="50" cy="50" r="7" fill="brown" />
+                </svg>
+            </div>
+            <div class="sunflower">
+                <svg width="150" height="180" viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="50" y1="50" x2="50" y2="110" stroke="#4CAF50" stroke-width="6" />
+                    <ellipse cx="40" cy="80" rx="8" ry="4" fill="#4CAF50" transform="rotate(-5 40,80)" />
+                    <ellipse cx="60" cy="75" rx="8" ry="4" fill="#4CAF50" transform="rotate(5 60,75)" />
+                    <circle cx="40" cy="45" r="5" fill="#ffcc00" />
+                    <circle cx="60" cy="45" r="5" fill="#ffcc00" />
+                    <circle cx="45" cy="40" r="5" fill="#ffcc00" />
+                    <circle cx="55" cy="40" r="5" fill="#ffcc00" />
+                    <circle cx="45" cy="60" r="5" fill="#ffcc00" />
+                    <circle cx="55" cy="60" r="5" fill="#ffcc00" />
+                    <circle cx="40" cy="55" r="5" fill="#ffcc00" />
+                    <circle cx="60" cy="55" r="5" fill="#ffcc00" />
+                    <circle cx="50" cy="50" r="7" fill="brown" />
+                </svg>
+            </div>
+            <div class="sunflower">
+                <svg width="150" height="180" viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="50" y1="50" x2="50" y2="110" stroke="#4CAF50" stroke-width="6" />
+                    <ellipse cx="40" cy="75" rx="8" ry="4" fill="#4CAF50" transform="rotate(-10 40,75)" />
+                    <ellipse cx="60" cy="80" rx="8" ry="4" fill="#4CAF50" transform="rotate(10 60,80)" />
+                    <circle cx="40" cy="45" r="5" fill="#ffcc00" />
+                    <circle cx="60" cy="45" r="5" fill="#ffcc00" />
+                    <circle cx="45" cy="40" r="5" fill="#ffcc00" />
+                    <circle cx="55" cy="40" r="5" fill="#ffcc00" />
+                    <circle cx="45" cy="60" r="5" fill="#ffcc00" />
+                    <circle cx="55" cy="60" r="5" fill="#ffcc00" />
+                    <circle cx="40" cy="55" r="5" fill="#ffcc00" />
+                    <circle cx="60" cy="55" r="5" fill="#ffcc00" />
+                    <circle cx="50" cy="50" r="7" fill="brown" />
+                </svg>
+            </div>
+        </div>
+
+        <!-- 3 Girasoles -->
+        <div class="row">
+            <div class="sunflower">
+                <svg width="150" height="180" viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="50" y1="50" x2="50" y2="110" stroke="#4CAF50" stroke-width="6" />
+                    <ellipse cx="40" cy="80" rx="8" ry="4" fill="#4CAF50" transform="rotate(-15 40,80)" />
+                    <ellipse cx="60" cy="75" rx="8" ry="4" fill="#4CAF50" transform="rotate(15 60,75)" />
+                    <circle cx="40" cy="45" r="5" fill="#ffcc00" />
+                    <circle cx="60" cy="45" r="5" fill="#ffcc00" />
+                    <circle cx="45" cy="40" r="5" fill="#ffcc00" />
+                    <circle cx="55" cy="40" r="5" fill="#ffcc00" />
+                    <circle cx="45" cy="60" r="5" fill="#ffcc00" />
+                    <circle cx="55" cy="60" r="5" fill="#ffcc00" />
+                    <circle cx="40" cy="55" r="5" fill="#ffcc00" />
+                    <circle cx="60" cy="55" r="5" fill="#ffcc00" />
+                    <circle cx="50" cy="50" r="7" fill="brown" />
+                </svg>
+            </div>
+            <div class="sunflower">
+                <svg width="150" height="180" viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="50" y1="50" x2="50" y2="110" stroke="#4CAF50" stroke-width="6" />
+                    <ellipse cx="40" cy="80" rx="8" ry="4" fill="#4CAF50" transform="rotate(10 40,80)" />
+                    <ellipse cx="60" cy="75" rx="8" ry="4" fill="#4CAF50" transform="rotate(-10 60,75)" />
+                    <circle cx="40" cy="45" r="5" fill="#ffcc00" />
+                    <circle cx="60" cy="45" r="5" fill="#ffcc00" />
+                    <circle cx="45" cy="40" r="5" fill="#ffcc00" />
+                    <circle cx="55" cy="40" r="5" fill="#ffcc00" />
+                    <circle cx="45" cy="60" r="5" fill="#ffcc00" />
+                    <circle cx="55" cy="60" r="5" fill="#ffcc00" />
+                    <circle cx="40" cy="55" r="5" fill="#ffcc00" />
+                    <circle cx="60" cy="55" r="5" fill="#ffcc00" />
+                    <circle cx="50" cy="50" r="7" fill="brown" />
+                </svg>
+            </div>
+            <div class="sunflower">
+                <svg width="150" height="180" viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="50" y1="50" x2="50" y2="110" stroke="#4CAF50" stroke-width="6" />
+                    <ellipse cx="40" cy="80" rx="8" ry="4" fill="#4CAF50" transform="rotate(-5 40,80)" />
+                    <ellipse cx="60" cy="75" rx="8" ry="4" fill="#4CAF50" transform="rotate(5 60,75)" />
+                    <circle cx="40" cy="45" r="5" fill="#ffcc00" />
+                    <circle cx="60" cy="45" r="5" fill="#ffcc00" />
+                    <circle cx="45" cy="40" r="5" fill="#ffcc00" />
+                    <circle cx="55" cy="40" r="5" fill="#ffcc00" />
+                    <circle cx="45" cy="60" r="5" fill="#ffcc00" />
+                    <circle cx="55" cy="60" r="5" fill="#ffcc00" />
+                    <circle cx="40" cy="55" r="5" fill="#ffcc00" />
+                    <circle cx="60" cy="55" r="5" fill="#ffcc00" />
+                    <circle cx="50" cy="50" r="7" fill="brown" />
+                </svg>
+            </div>
+        </div>
+
+        <!-- 2 Girasoles -->
+        <div class="row">
+            <div class="sunflower">
+                <svg width="150" height="180" viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="50" y1="50" x2="50" y2="110" stroke="#4CAF50" stroke-width="6" />
+                    <ellipse cx="40" cy="80" rx="8" ry="4" fill="#4CAF50" transform="rotate(-15 40,80)" />
+                    <ellipse cx="60" cy="75" rx="8" ry="4" fill="#4CAF50" transform="rotate(15 60,75)" />
+                    <circle cx="40" cy="45" r="5" fill="#ffcc00" />
+                    <circle cx="60" cy="45" r="5" fill="#ffcc00" />
+                    <circle cx="45" cy="40" r="5" fill="#ffcc00" />
+                    <circle cx="55" cy="40" r="5" fill="#ffcc00" />
+                    <circle cx="45" cy="60" r="5" fill="#ffcc00" />
+                    <circle cx="55" cy="60" r="5" fill="#ffcc00" />
+                    <circle cx="40" cy="55" r="5" fill="#ffcc00" />
+                    <circle cx="60" cy="55" r="5" fill="#ffcc00" />
+                    <circle cx="50" cy="50" r="7" fill="brown" />
+                </svg>
+            </div>
+            <div class="sunflower">
+                <svg width="150" height="180" viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="50" y1="50" x2="50" y2="110" stroke="#4CAF50" stroke-width="6" />
+                    <ellipse cx="40" cy="80" rx="8" ry="4" fill="#4CAF50" transform="rotate(10 40,80)" />
+                    <ellipse cx="60" cy="75" rx="8" ry="4" fill="#4CAF50" transform="rotate(-10 60,75)" />
+                    <circle cx="40" cy="45" r="5" fill="#ffcc00" />
+                    <circle cx="60" cy="45" r="5" fill="#ffcc00" />
+                    <circle cx="45" cy="40" r="5" fill="#ffcc00" />
+                    <circle cx="55" cy="40" r="5" fill="#ffcc00" />
+                    <circle cx="45" cy="60" r="5" fill="#ffcc00" />
+                    <circle cx="55" cy="60" r="5" fill="#ffcc00" />
+                    <circle cx="40" cy="55" r="5" fill="#ffcc00" />
+                    <circle cx="60" cy="55" r="5" fill="#ffcc00" />
+                    <circle cx="50" cy="50" r="7" fill="brown" />
+                </svg>
+            </div>
+        </div>
+
+        <!-- 1 Girasol -->
+        <div class="row">
+            <div class="sunflower">
+                <svg width="150" height="180" viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="50" y1="50" x2="50" y2="110" stroke="#4CAF50" stroke-width="6" />
+                    <ellipse cx="40" cy="80" rx="8" ry="4" fill="#4CAF50" transform="rotate(-15 40,80)" />
+                    <ellipse cx="60" cy="75" rx="8" ry="4" fill="#4CAF50" transform="rotate(15 60,75)" />
+                    <circle cx="40" cy="45" r="5" fill="#ffcc00" />
+                    <circle cx="60" cy="45" r="5" fill="#ffcc00" />
+                    <circle cx="45" cy="40" r="5" fill="#ffcc00" />
+                    <circle cx="55" cy="40" r="5" fill="#ffcc00" />
+                    <circle cx="45" cy="60" r="5" fill="#ffcc00" />
+                    <circle cx="55" cy="60" r="5" fill="#ffcc00" />
+                    <circle cx="40" cy="55" r="5" fill="#ffcc00" />
+                    <circle cx="60" cy="55" r="5" fill="#ffcc00" />
+                    <circle cx="50" cy="50" r="7" fill="brown" />
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <p class="message">Eres mi sol y siempre iluminas mis días. ¡No puedo esperar para abrazarte!</p>
+    
+    <button id="musicButton">Reproducir Música</button>
+</div>
+
+<footer>
+    <p>Hoy es un día especial, y cada momento contigo es un regalo.</p>
+</footer>
+
+<script>
+    const music = document.getElementById('backgroundMusic');
+    const musicButton = document.getElementById('musicButton');
+
+    let isPlaying = false;
+
+    musicButton.addEventListener('click', () => {
+        if (isPlaying) {
+            music.pause();
+            musicButton.textContent = 'Reproducir Música';
+        } else {
+            music.play();
+            musicButton.textContent = 'Pausar Música';
+        }
+        isPlaying = !isPlaying;
+    });
+</script>
+
+</body>
+</html>
